@@ -7,13 +7,14 @@
 
 import Foundation
 import UIKit
-
+// Katras atsevišķas fotogrāfijas un apraksta attēlošanai izveidot kontroliera klasi.
 class FrameController: UIViewController {
     @IBOutlet weak var photoTitle: UINavigationItem!
     @IBOutlet weak var photoImage: UIImageView!
     @IBOutlet weak var photoDescription: UILabel!
-    
+//Kontroliera klasei paredzēt īpašību – datu klases objekts.
     var photoFrame: OnePhoto?
+    
     override func viewDidLoad() {
            super.viewDidLoad()
         self.photoTitle.title = photoFrame?.name

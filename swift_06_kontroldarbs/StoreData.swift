@@ -6,6 +6,7 @@
 //
 
 import Foundation
+// Datu modelī ievadīt 8-10 ierakstus.
 func storeData() -> [OnePhoto] {
      let photos = [OnePhoto(name: "Pirmā bilde",
                            photoFile: "photo01",

@@ -7,7 +7,13 @@
 
 import Foundation
 import UIKit
-class OnePhoto {
+// Izveidot datu modeli kā masīvu. Datu elementam izveidot atsevišķu klasi.
+
+class OnePhoto: Equatable {
+    static func == (lhs: OnePhoto, rhs: OnePhoto) -> Bool {
+        return lhs.name == rhs.name
+    }
+    
     let name: String
     let photo: UIImage?
     let description: String

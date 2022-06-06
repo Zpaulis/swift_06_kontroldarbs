@@ -32,7 +32,7 @@
                 </pageViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HIl-tP-jg3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-100" y="53"/>
+            <point key="canvasLocation" x="-158" y="53"/>
         </scene>
         <!--Frame Controller-->
         <scene sceneID="dXl-vg-qOA">
@@ -64,11 +64,6 @@
                                 </attributedString>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <size key="shadowOffset" width="0.0" height="1"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="50"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="iIj-Dc-1na"/>
@@ -94,7 +89,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qpo-22-DnI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="720" y="72"/>
+            <point key="canvasLocation" x="613" y="53"/>
         </scene>
     </scenes>
     <resources>
